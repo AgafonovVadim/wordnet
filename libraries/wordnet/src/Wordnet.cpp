@@ -114,7 +114,7 @@ WordNet::WordNet(std::istream& synsets, std::istream& hypernyms) {
             start_pos = end_pos + 1;
         }
         words[{&it[start_pos], gloss_start - 1 - start_pos}].emplace_back(unsigned_string);
-        glosses[unsigned_string] = {&it[gloss_start], it.size() - gloss_start - 1};
+        glosses[unsigned_string] = {&it[gloss_start], it.size() - gloss_start};
     }
 
     digraph.extend(input.size());
