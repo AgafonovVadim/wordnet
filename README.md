@@ -179,3 +179,8 @@ The design of this class is part of the assignment. The obtained interface shoul
 
 ## Note
 * The proposed interfaces of the WordNet, ShortestCommonAncestor, and Outcast classes can be extended, but they cannot be changed. The introduction of additional user-defined data types is not limited.
+
+
+## License
+
+This project is licensed under the [GPL-3.0 license](LICENSE).
