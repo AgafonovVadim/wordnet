@@ -1,3 +1,5 @@
+### Wordnet [![CI](https://github.com/AgafonovVadim/wordnet/actions/workflows/tests.yml/badge.svg)](https://github.com/AgafonovVadim/wordnet/actions/workflows/tests.yml)
+
 WordNet is a specially structured database of English words. It is used in various computer linguistics and cognitive science tasks. One example of its use is the IBM computer system Watson, developed for quickly finding answers in the game "Jeopardy!".
 
 Here's how the WordNet database is organized:
